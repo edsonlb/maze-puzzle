@@ -22,7 +22,6 @@ def main():
             if item:
                 search_parameters.append(item)
 
-        print len(search_parameters)
         if len(search_parameters) == 0:
             print 'YOU DONT KNOW HOW TO PLAY :-)'
             sys.exit(0)

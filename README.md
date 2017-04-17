@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/edsonlb/maze-puzzle.svg?branch=master)](https://travis-ci.org/edsonlb/maze-puzzle)
 
+[![Local Tests](http://image.prntscr.com/image/e9ca43d8ecf44c58813bc3643422f0f0.png)]
+
 Problem:
 Write a program that will output a valid route one could follow to collect all specified items within a map. The map is a json description of set of rooms with allowed path and contained object.
 exercize starts with an input of:
@@ -41,7 +43,7 @@ Input Objects To Collect= Knife, Potted Plant
 python app.py data.json 2 "knife" "Potted Plant"
 ```
 will produce the following output:
-Put here later the IMG.
+[![System Output](http://image.prntscr.com/image/848f0646fe3c457eba4737d10938417f.png)]
 
 ### Assumptions ###
 I made the following assumptions in the development of this software:
