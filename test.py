@@ -52,7 +52,7 @@ class my_tests(unittest.TestCase):
     def test_parameters_needles3(self):
         sys.argv = ["App.py", "data.json", "2", "knife", "Potted Plan", "Other1", "Other2", "Other3"]
         main()
-        self.assertIn(self.message, sys.stdout.getvalue())
+        self.assertIn('STARTING AT ID', sys.stdout.getvalue())
 
     def test_parameters_start_node4(self):
         sys.argv = ["App.py", "data.json", "2", "", ""]
