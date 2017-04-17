@@ -66,6 +66,5 @@ class my_tests(unittest.TestCase):
         self.assertIn("Object collected", sys.stdout.getvalue())
 
 
-
 if __name__ == '__main__':
     unittest.main()
