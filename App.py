@@ -2,6 +2,7 @@
 """Return internal item from a posision based on the item ID field."""
 import sys
 from pprint import pprint
+from Maze import Maze
 
 def main():
     """Lets run!"""
@@ -28,6 +29,9 @@ def main():
         else:
             print 'SEARCHING:'
             pprint(search_parameters)
+
+        maze = Maze(int(start_node), json_file, search_parameters)
+        maze.print_output()
     except:
         print 'YOU DONT KNOW HOW TO PLAY :-)'
 

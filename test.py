@@ -1,6 +1,7 @@
 import sys, unittest
 from StringIO import StringIO
 from App import main
+from Maze import Maze
 
 class my_tests(unittest.TestCase):
     """Lets test!"""
@@ -58,6 +59,11 @@ class my_tests(unittest.TestCase):
         sys.argv = ["App.py", "data.json", "2", "", ""]
         main()
         self.assertIn(self.message, sys.stdout.getvalue())
+
+    def test_maze_start(self):
+        maze = Maze(2, open("data.json"), ["knife", "Potted Plan"])
+        maze.print_output()
+        self.assertIn("Object collected", sys.stdout.getvalue())
 
 
 
