@@ -65,6 +65,11 @@ class my_tests(unittest.TestCase):
         maze.print_output()
         self.assertIn("Object collected", sys.stdout.getvalue())
 
+    def test_maze_start_no_values(self):
+        maze = Maze(0, "", [])
+        maze.print_output()
+        self.assertIn(self.message, sys.stdout.getvalue())
+
 
 if __name__ == '__main__':
     unittest.main()
