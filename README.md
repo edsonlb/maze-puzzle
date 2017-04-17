@@ -1,5 +1,7 @@
 # A-Maze-ingly Retro Route Puzzle #
 
+[![Build Status](https://travis-ci.org/edsonlb/maze-puzzle.svg?branch=master)](https://travis-ci.org/edsonlb/maze-puzzle)
+
 Problem:
 Write a program that will output a valid route one could follow to collect all specified items within a map. The map is a json description of set of rooms with allowed path and contained object.
 exercize starts with an input of:
