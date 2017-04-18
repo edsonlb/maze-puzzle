@@ -1,4 +1,3 @@
 FROM python:2.7
-COPY maze-puzzle /application
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 ENTRYPOINT ["python", "App.py"]
