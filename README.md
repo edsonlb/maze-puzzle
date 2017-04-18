@@ -1,6 +1,9 @@
 # A-Maze-ingly Retro Route Puzzle #
 
-[![Build Status](https://travis-ci.org/edsonlb/maze-puzzle.svg?branch=master)](https://travis-ci.org/edsonlb/maze-puzzle)
+[![Test Build Status](https://travis-ci.org/edsonlb/maze-puzzle.svg?branch=master)](https://travis-ci.org/edsonlb/maze-puzzle)
+
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/edsonlb/maze-puzzle/)
+
 
 ![Local Tests](http://image.prntscr.com/image/e9ca43d8ecf44c58813bc3643422f0f0.png)
 
