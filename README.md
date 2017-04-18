@@ -49,9 +49,14 @@ will produce the following output:
 ### Assumptions ###
 I made the following assumptions in the development of this software:
 - On the example sent to me, the output ID is whrong for the "Dining Room". The column should show the real ID of the room. And the first is "0".
-![System Output](http://image.prntscr.com/image/b6e48314a69e44299450ddce3ddc8fc4.jpeg)
+![Zero on the first element](http://image.prntscr.com/image/b6e48314a69e44299450ddce3ddc8fc4.jpeg)
 
-- On the example sent to me, the "west" coordinate of the "Sun Room" is whrong "weast"!
+- The "west" coordinate of the "Sun Room" is whrong "weast".
+![weast is not west](http://image.prntscr.com/image/c75f8b5419294f1ca9305ebb880c7a72.jpeg)
+
+- The JSON file can have None, One or More "objects" in the array node in each room.
+![weast is not west](http://image.prntscr.com/image/157b9bb562704c039a27147ea3fc103e.jpeg)
+
 - The program quits the execution when some error is found.
 
 ### Additional Goals ### 
