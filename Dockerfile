@@ -1,6 +1,4 @@
-FROM ubuntu
-ADD App.py /
-ADD Maze.py /
-ADD requirements.txt /
+FROM python:2.7
+COPY maze-puzzle /application
 RUN pip install -r requirements.txt
-ENTRYPOINT /
+ENTRYPOINT ["python", "App.py"]
