@@ -57,7 +57,7 @@ I made the following assumptions in the development of this software:
 - The JSON file can have None, One or More "objects" in the array node in each room.
 ![weast is not west](http://image.prntscr.com/image/157b9bb562704c039a27147ea3fc103e.jpeg)
 
-- This is my first code with Docker (Hope to improve more, I liked)
+- This is my first code with Docker (Hope to improve & learn more, I liked!): https://hub.docker.com/r/edsonlb/maze-puzzle/
 ```
  docker run --rm -v /home/edson/test_json/test1_data.json:/test_app edsonlb/maze-puzzle /test_app/data.json 2 "Knife" "Potted Plant"
 ```
