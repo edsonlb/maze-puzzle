@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM ubuntu
 ADD App.py /
 ADD Maze.py /
 ADD requirements.txt /
