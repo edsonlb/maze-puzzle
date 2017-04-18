@@ -57,10 +57,16 @@ I made the following assumptions in the development of this software:
 - The JSON file can have None, One or More "objects" in the array node in each room.
 ![weast is not west](http://image.prntscr.com/image/157b9bb562704c039a27147ea3fc103e.jpeg)
 
-- This is my first code with Docker (Hope to improve & learn more, I liked!): https://hub.docker.com/r/edsonlb/maze-puzzle/
+- This is my FIRST code with Docker (Hope to improve & learn more, I liked!): https://hub.docker.com/r/edsonlb/maze-puzzle/
 ```
- docker run --rm -v /home/edson/test_json/test1_data.json:/test_app edsonlb/maze-puzzle /test_app/data.json 2 "Knife" "Potted Plant"
+# Internal Docker Folder: /usr/src/app/
+docker run --rm -v /PATH/TO/FILE/MY_DATA.json:/usr/src/app/MY_DATA.json edsonlb/maze-puzzle /usr/src/app/MY_DATA.json INDEX "NEEDLE 1" "NEEDLE 2" "NEEDLE 3"
+
+#EXAMPLE
+docker run --rm -v /Users/edsonlb/test_json/test_data.json:/usr/src/app/test_data.json edsonlb/maze-puzzle /usr/src/app/test_data.json 2 "Knife" "Potted Plant"
+
 ```
+![Docker in Action](http://image.prntscr.com/image/13fe998a1406479d8f1e0e7ff3a08f74.png)
 
 - The program quits the execution when some error is found.
 
